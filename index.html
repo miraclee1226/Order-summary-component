@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width    =device-width, initial-scale=1.0">
     <title>Order summary component</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
-        <div>
-            <div class="box">
-                <div>
-                    <img class="img-hero">
+        <div class="box">
+            <div class="img">
+                <img class="img-hero">
+            </div>
+            <div class="content">
+                <div class="header">
+                    <h1>
+                        Order Summary
+                    </h1>
+                    <p>
+                        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                    </p>
                 </div>
-                <div class="content">
-                    <div class="header">
-                        <h1>
-                            Order Summary
-                        </h1>
-                        <p>
-                            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-                        </p>
+                <div class="annual-box">
+                    <div class="icon-img">
+                        <img src="./assets/icon-music.svg" alt="music icon" class="icon-music">
                     </div>
-                    <div>
-                        <strong>Annual Plan</strong>
-                        $59.99/year
-                        change
+                    <div class="price">
+                        <h1>Annual Plan</h1>
+                        <p>$59.99/year</p>
                     </div>
-                    <div>
-                        <button type="button">Proceed to Payment</button>
-                        <button type="button">Cancel Order</button>
+                    <div class="a-change">
+                        <a href="#">Change</a>
                     </div>
+                </div>
+                <div class="buttons">
+                    <button type="button" class="firstbutton">Proceed to Payment</button>
+                    <button type="button" class="secbutton">Cancel Order</button>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
